@@ -7,6 +7,6 @@ def my_find(collection)
       return collection[i]
       # or return collection[i] if yield(collection[i]) with no "end" on the next line
     end
-    i += 0
+    i += 1
   end
-end 
+end
